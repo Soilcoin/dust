@@ -18,7 +18,7 @@ try {
 
 
 const argv = require('yargs')
-    .usage('Usage: $0 [Mist options] [Node options]')
+    .usage('Usage: $0 [Dust options] [Node options]')
     .option({
         mode: {
             alias: 'm',
@@ -28,16 +28,16 @@ const argv = require('yargs')
             requiresArg: true,
             nargs: 1,
             type: 'string',
-            group: 'Mist options:',
+            group: 'Dust options:',
         },
         node: {
             demand: false,
             default: null,
-            describe: 'Node to use: geth, eth',
+            describe: 'Node to use: gsoil, eth',
             requiresArg: true,
             nargs: 1,
             type: 'string',
-            group: 'Mist options:',
+            group: 'Dust options:',
         },
         network: {
             demand: false,
@@ -46,7 +46,7 @@ const argv = require('yargs')
             requiresArg: true,
             nargs: 1,
             type: 'string',
-            group: 'Mist options:',
+            group: 'Dust options:',
         },
         rpc: {
             demand: false,
@@ -54,15 +54,15 @@ const argv = require('yargs')
             requiresArg: true,
             nargs: 1,
             type: 'string',
-            group: 'Mist options:',
+            group: 'Dust options:',
         },
-        gethpath: {
+        gsoilpath: {
             demand: false,
             describe: 'Path to Geth executable to use instead of default.',
             requiresArg: true,
             nargs: 1,
             type: 'string',
-            group: 'Mist options:',
+            group: 'Dust options:',
         },
         ethpath: {
             demand: false,
@@ -70,7 +70,7 @@ const argv = require('yargs')
             requiresArg: true,
             nargs: 1,
             type: 'string',
-            group: 'Mist options:',
+            group: 'Dust options:',
         },
         'ignore-gpu-blacklist': {
             demand: false,
@@ -78,11 +78,11 @@ const argv = require('yargs')
             requiresArg: false,
             nargs: 0,
             type: 'boolean',
-            group: 'Mist options:',
+            group: 'Dust options:',
         },
         'reset-tabs': {
             demand: false,
-            describe: 'Reset Mist tabs to their default settings.',
+            describe: 'Reset Dust tabs to their default settings.',
             requiresArg: false,
             nargs: 0,
             type: 'boolean',
@@ -94,7 +94,7 @@ const argv = require('yargs')
             requiresArg: true,
             nargs: 1,
             type: 'string',
-            group: 'Mist options:',
+            group: 'Dust options:',
         },
         loglevel: {
             demand: false,
@@ -103,19 +103,19 @@ const argv = require('yargs')
             requiresArg: true,
             nargs: 1,
             type: 'string',
-            group: 'Mist options:',
+            group: 'Dust options:',
         },
         version: {
             alias: 'v',
             demand: false,
             requiresArg: false,
             nargs: 0,
-            describe: 'Display Mist version.',
-            group: 'Mist options:',
+            describe: 'Display Dust version.',
+            group: 'Dust options:',
             type: 'boolean',
         },
         '': {
-            describe: 'To pass options to the underlying node (e.g. Geth) use the --node- prefix, e.g. --node-datadir',
+            describe: 'To pass options to the underlying node (e.g. Gsoil) use the --node- prefix, e.g. --node-datadir',
             group: 'Node options:',
         },
     })
@@ -177,7 +177,7 @@ class Settings {
     }
 
     get appName() {
-        return this.uiMode === 'mist' ? 'Mist' : 'Ethereum Wallet';
+        return this.uiMode === 'mist' ? 'Dust' : 'Ethereum Wallet';
     }
 
     get appLicense() {
@@ -197,13 +197,13 @@ class Settings {
     }
 
     get gethPath() {
-        return argv.gethpath;
+        return argv.gsoilpath;
     }
-
+	/*
     get ethPath() {
         return argv.ethpath;
     }
-
+	*/
     get rpcMode() {
         if (argv.rpc && argv.rpc.indexOf('http') === 0)
             return 'http';
