@@ -2,21 +2,21 @@
 {
     "clients": {
         "Geth": {
-            "version": "1.6.0",
+            "version": "1.6.1",
             "platforms": {
                 "linux": {
                     "x64": {
                         "download": {
-                            "url": "https://gethstore.blob.core.windows.net/builds/geth-linux-amd64-1.6.0-facc47cb.tar.gz",
+                            "url": "https://github.com/Soilcoin/go-soil/releases/download/v1.6.1/gsoil-linux-amd64.tar.gz",
                             "type": "tar",
-                            "md5": "048b0618696b040f6d3ff18ee2e5763a",
-                            "bin": "geth-linux-amd64-1.6.0-facc47cb/geth"
+                            "md5": "56339a0a10645be822005a3efacf6ff6",
+                            "bin": "gsoil-linux-amd64/gsoil"
                         },
                         "bin": "geth",
                         "commands": {
                             "sanity": {
                                 "args": ["version"],
-                                "output": [ "Geth", "1.6.0" ]
+                                "output": [ "Gsoil", "1.6.1" ]
                             }
                         }
                     },
