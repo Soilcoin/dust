@@ -177,7 +177,7 @@ class Settings {
     }
 
     get appName() {
-        return this.uiMode === 'mist' ? 'Dust' : 'Ethereum Wallet';
+        return this.uiMode === 'mist' ? 'Dust' : 'SOILsafe';
     }
 
     get appLicense() {
