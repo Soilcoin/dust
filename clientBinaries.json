@@ -1,36 +1,37 @@
+
 {
     "clients": {
-        "Gsoil": {
-            "version": "1.4.4",
+        "Geth": {
+            "version": "1.6.0",
             "platforms": {
                 "linux": {
                     "x64": {
                         "download": {
-                            "url": "https://github.com/Soilcoin/go-soil/releases/download/v1.6.1/gsoil-linux-amd64.tar.gz",
+                            "url": "https://gethstore.blob.core.windows.net/builds/geth-linux-amd64-1.6.0-facc47cb.tar.gz",
                             "type": "tar",
-                            "md5": "56339a0a10645be822005a3efacf6ff6",
-                            "bin": "gsoil-linux-amd64/gsoil"
+                            "md5": "048b0618696b040f6d3ff18ee2e5763a",
+                            "bin": "geth-linux-amd64-1.6.0-facc47cb/geth"
                         },
-                        "bin": "gsoil",
+                        "bin": "geth",
                         "commands": {
                             "sanity": {
                                 "args": ["version"],
-                                "output": [ "Gsoil", "1.6.1" ]
+                                "output": [ "Geth", "1.6.0" ]
                             }
                         }
                     },
                     "ia32": {
                         "download": {
-                            "url": "https://github.com/martymcfly2015/go-soil/releases/download/1.4.4/gsoil-linux-386-1.4.4.tar.gz",
+                            "url": "https://gethstore.blob.core.windows.net/builds/geth-linux-386-1.6.0-facc47cb.tar.gz",
                             "type": "tar",
-                            "md5": "9d3d3859861d98aaa4021a13ba536b39",
-                            "bin": "gsoil-linux-386-1.4.4/gsoil"
+                            "md5": "44215076b4d50e079878bcabeaae2117",
+                            "bin": "geth-linux-386-1.6.0-facc47cb/geth"
                         },
-                        "bin": "gsoil",
+                        "bin": "geth",
                         "commands": {
                             "sanity": {
                                 "args": ["version"],
-                                "output": [ "Gsoil", "1.4.4" ]
+                                "output": [ "Geth", "1.6.0" ]
                             }
                         }
                     }
@@ -38,16 +39,16 @@
                 "mac": {
                     "x64": {
                         "download": {
-                            "url": "https://github.com/martymcfly2015/go-soil/releases/download/1.4.4/gsoil-darwin-amd64-1.4.4.tar.gz",
+                            "url": "https://gethstore.blob.core.windows.net/builds/geth-darwin-amd64-1.6.0-facc47cb.tar.gz",
                             "type": "tar",
-                            "md5": "005c0144a51cf43a98304e21223714f0",
-                            "bin": "gsoil-darwin-amd64-1.4.4/gsoil"
+                            "md5": "446308f1d702bf5d30892bda43c25d23",
+                            "bin": "geth-darwin-amd64-1.6.0-facc47cb/geth"
                         },
-                        "bin": "gsoil",
+                        "bin": "geth",
                         "commands": {
                             "sanity": {
                                 "args": ["version"],
-                                "output": [ "Gsoil", "1.4.4" ]
+                                "output": [ "Geth", "1.6.0" ]
                             }
                         }
                     }
@@ -55,31 +56,31 @@
                 "win": {
                     "x64": {
                         "download": {
-                            "url": "https://github.com/Soilcoin/go-soil/releases/download/v1.6.1/gsoil-windows-4.0-amd64.zip",
+                            "url": "https://gethstore.blob.core.windows.net/builds/geth-windows-amd64-1.6.0-facc47cb.zip",
                             "type": "zip",
-                            "md5": "b7372011f84436fe104611f5fcdaecd9",
-                            "bin": "gsoil-windows-4.0-amd64\\gsoil.exe"
+                            "md5": "e4bb82c4d7078269a932cb7d46c5acb4",
+                            "bin": "geth-windows-amd64-1.6.0-facc47cb\\geth.exe"
                         },
-                        "bin": "gsoil.exe",
+                        "bin": "geth.exe",
                         "commands": {
                             "sanity": {
                                 "args": ["version"],
-                                "output": [ "Gsoil", "1.6.1" ]
+                                "output": [ "Geth", "1.6.0" ]
                             }
                         }
                     },
                     "ia32": {
                         "download": {
-                            "url": "https://github.com/martymcfly2015/go-soil/releases/download/1.4.4/gsoil-windows-386-1.4.4.zip",
+                            "url": "https://gethstore.blob.core.windows.net/builds/geth-windows-386-1.6.0-facc47cb.zip",
                             "type": "zip",
-                            "md5": "678ba11df06aa90d236c869d76c12c98",
-                            "bin": "gsoil-windows-386-1.4.4\\gsoil.exe"
+                            "md5": "0935e22c5626c73b9f0b556b3323c71a",
+                            "bin": "geth-windows-386-1.6.0-facc47cb\\geth.exe"
                         },
-                        "bin": "gsoil.exe",
+                        "bin": "geth.exe",
                         "commands": {
                             "sanity": {
                                 "args": ["version"],
-                                "output": [ "Gsoil", "1.4.4" ]
+                                "output": [ "Geth", "1.6.0" ]
                             }
                         }
                     }
