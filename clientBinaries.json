@@ -1,4 +1,3 @@
-
 {
     "clients": {
         "Geth": {
@@ -12,11 +11,11 @@
                             "md5": "56339a0a10645be822005a3efacf6ff6",
                             "bin": "gsoil-linux-amd64/gsoil"
                         },
-                        "bin": "geth",
+                        "bin": "gsoil",
                         "commands": {
                             "sanity": {
                                 "args": ["version"],
-                                "output": [ "Gsoil", "1.6.1" ]
+                                "output": [ "Gsoil", "1.6.0" ]
                             }
                         }
                     },
@@ -56,16 +55,16 @@
                 "win": {
                     "x64": {
                         "download": {
-                            "url": "https://github.com/Soilcoin/go-soil/releases/download/v1.6.1/gsoil-windows-4.0-amd64.zip",
+                            "url": "https://gethstore.blob.core.windows.net/builds/geth-windows-amd64-1.6.0-facc47cb.zip",
                             "type": "zip",
-                            "md5": "b7372011f84436fe104611f5fcdaecd9",
-                            "bin": "gsoil-windows-4.0-amd64\\gsoil.exe"
+                            "md5": "e4bb82c4d7078269a932cb7d46c5acb4",
+                            "bin": "geth-windows-amd64-1.6.0-facc47cb\\geth.exe"
                         },
                         "bin": "geth.exe",
                         "commands": {
                             "sanity": {
                                 "args": ["version"],
-                                "output": [ "Gsoil", "1.6.1" ]
+                                "output": [ "Geth", "1.6.0" ]
                             }
                         }
                     },
