@@ -178,17 +178,17 @@ let menuTempl = function (webviews) {
                             // geth
                             } else {
                                 if (process.platform === 'darwin') {
-                                    userPath += '/Library/Ethereum/keystore';
+                                    userPath += '/Library/Soil/keystore';
                                 }
 
                                 if (process.platform === 'freebsd' ||
                                 process.platform === 'linux' ||
                                 process.platform === 'sunos') {
-                                    userPath += '/.ethereum/keystore';
+                                    userPath += '/.soil/keystore';
                                 }
 
                                 if (process.platform === 'win32') {
-                                    userPath = `${Settings.appDataPath}\\Ethereum\\keystore`;
+                                    userPath = `${Settings.appDataPath}\\Soil\\keystore`;
                                 }
                             }
 
@@ -553,7 +553,7 @@ let menuTempl = function (webviews) {
     helpMenu.push({
         label: i18n.t('mist.applicationMenu.help.reportBug'),
         click() {
-            shell.openExternal('https://github.com/ethereum/mist/issues');
+            shell.openExternal('https://github.com/Soilcoin/dust/issues');
         },
     });
 
