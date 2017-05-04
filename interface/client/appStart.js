@@ -4,7 +4,7 @@ The init function of Mist
 @method mistInit
 */
 mistInit = function () {
-    console.info('Initialise Mist Interface');
+    console.info('Initialise Dust Interface');
 
     EthBlocks.init();
 
