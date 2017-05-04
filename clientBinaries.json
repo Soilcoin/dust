@@ -15,7 +15,7 @@
                         "commands": {
                             "sanity": {
                                 "args": ["version"],
-                                "output": [ "Gsoil", "1.6.0" ]
+                                "output": [ "Gsoil", "1.6.1" ]
                             }
                         }
                     },
