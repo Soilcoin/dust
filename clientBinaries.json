@@ -56,10 +56,10 @@
                 "win": {
                     "x64": {
                         "download": {
-                            "url": "https://gethstore.blob.core.windows.net/builds/geth-windows-amd64-1.6.0-facc47cb.zip",
+                            "url": "https://github.com/Soilcoin/go-soil/releases/download/v1.6.1/gsoil-windows-4.0-amd64.zip",
                             "type": "zip",
-                            "md5": "e4bb82c4d7078269a932cb7d46c5acb4",
-                            "bin": "geth-windows-amd64-1.6.0-facc47cb\\geth.exe"
+                            "md5": "b7372011f84436fe104611f5fcdaecd9",
+                            "bin": "gsoil-windows-4.0-amd64\\gsoil.exe"
                         },
                         "bin": "geth.exe",
                         "commands": {
