@@ -49,7 +49,7 @@ class Manager extends EventEmitter {
     }
 
     _checkForNewConfig(restart) {
-        const nodeType = 'Geth';
+        const nodeType = 'Gsoil';
         let binariesDownloaded = false;
         let nodeInfo;
 
