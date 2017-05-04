@@ -1,7 +1,7 @@
 
 {
     "clients": {
-        "Gsoil": {
+        "Geth": {
             "version": "1.6.1",
             "platforms": {
                 "linux": {
