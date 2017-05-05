@@ -6,12 +6,13 @@
         <div class="main-content">
             <div class="onboarding-section onboarding-start">
                 <p class="description">{{i18n "mist.popupWindows.onboarding.description"}}</p>
-                <p>
+                <!--<p>
                     <button class="start-testnet"> {{i18n "mist.popupWindows.onboarding.goToTestnet"}} </button>
                     {{i18n "mist.popupWindows.onboarding.goToTestnetDescription"}}
-                </p>
+                </p>-->
                 <p>
-                    <button class="goto-import-account"> {{i18n "mist.popupWindows.onboarding.gotoMainnet"}} </button>
+                    <!--<button class="goto-import-account"> {{i18n "mist.popupWindows.onboarding.gotoMainnet"}} </button>-->
+                    <button class="goto-password"> {{i18n "mist.popupWindows.onboarding.gotoMainnet"}} </button>
                     {{i18n "mist.popupWindows.onboarding.gotoMainnetDescription"}}
                 </p>
             </div>
@@ -48,7 +49,7 @@
                     {{#if TemplateVar.get "testnet"}}
                         <p>{{{i18n "mist.popupWindows.onboarding.mineItDescription"}}}</p>
                     {{else}}
-                        <p>{{{i18n "mist.popupWindows.onboarding.loadItDescription"}}}</p>
+                        <!--<p>{{{i18n "mist.popupWindows.onboarding.loadItDescription"}}}</p>-->
                     {{/if}}
                 </div>
 
@@ -60,8 +61,8 @@
                         <h6 class="address"> {{TemplateVar.get "newAccount"}} </h6>
 
                         {{#unless TemplateVar.get "testnet"}}
-                            <a href="https://shapeshift.io/shifty.html?destination={{newAccountLowerCase}}&amp;output=ETH&amp;apiKey=ef8312d8c9b9dda64fb852e8683eac6c33123f8743ff11383fb3bab29a364c01c27343fced4e628db8d5d66d763565763f8699c0fc903ec23db31cb908a944c8" class="button dapp-block-button dapp-small shapeshift" target="_popup"> {{i18n "mist.popupWindows.onboarding.depositBitcoin"}}  </a>
-                            <h6> {{{i18n "mist.popupWindows.onboarding.viaShapeshift"}}} </h6>
+                            <!--<a href="https://shapeshift.io/shifty.html?destination={{newAccountLowerCase}}&amp;output=ETH&amp;apiKey=ef8312d8c9b9dda64fb852e8683eac6c33123f8743ff11383fb3bab29a364c01c27343fced4e628db8d5d66d763565763f8699c0fc903ec23db31cb908a944c8" class="button dapp-block-button dapp-small shapeshift" target="_popup"> {{i18n "mist.popupWindows.onboarding.depositBitcoin"}}  </a>
+                            <h6> {{{i18n "mist.popupWindows.onboarding.viaShapeshift"}}} </h6>-->
                         {{/unless}}
                     {{/if}}
                 </div>
