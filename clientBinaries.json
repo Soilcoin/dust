@@ -2,7 +2,7 @@
 {
     "clients": {
         "Gsoil": {
-            "version": "1.6.1",
+            "version": "1.6.4",
             "platforms": {
                 "linux": {
                     "x64": {
