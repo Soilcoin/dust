@@ -56,16 +56,16 @@
                 "win": {
                     "x64": {
                         "download": {
-                            "url": "https://github.com/Soilcoin/go-soil/releases/download/v1.6.1/gsoil-windows-amd64-1.6.1.zip",
+                            "url": "https://github.com/Soilcoin/go-soil/releases/download/v1.6.4/gsoil-windows-amd64-1.6.4.zip",
                             "type": "zip",
-                            "md5": "325ff2d33e3fc20723843c6c5d52f267",
-                            "bin": "gsoil-windows-amd64-1.6.1\\gsoil.exe"
+                            "md5": "1ef10c2cbf8616bd8b0dd0eb94650a39",
+                            "bin": "gsoil-windows-amd64-1.6.4\\gsoil.exe"
                         },
                         "bin": "gsoil.exe",
                         "commands": {
                             "sanity": {
                                 "args": ["version"],
-                                "output": [ "Gsoil", "1.6.1" ]
+                                "output": [ "Gsoil", "1.6.4" ]
                             }
                         }
                     },
