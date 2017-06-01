@@ -7,31 +7,31 @@
                 "linux": {
                     "x64": {
                         "download": {
-                            "url": "https://github.com/Soilcoin/go-soil/releases/download/v1.6.1/gsoil-linux-amd64-1.6.1.tar.gz",
+                            "url": "https://github.com/Soilcoin/go-soil/releases/download/v1.6.4/gsoil-linux-amd64-1.6.4.tar.gz",
                             "type": "tar",
-                            "md5": "699ea3e842a80034468e1920ff7863f0",
-                            "bin": "gsoil-linux-amd64-1.6.1/gsoil"
+                            "md5": "2982160cdadfded74cc7d9cd6249e7c8",
+                            "bin": "gsoil-linux-amd64-1.6.4/gsoil"
                         },
                         "bin": "gsoil",
                         "commands": {
                             "sanity": {
                                 "args": ["version"],
-                                "output": [ "Gsoil", "1.6.1" ]
+                                "output": [ "Gsoil", "1.6.4" ]
                             }
                         }
                     },
                     "ia32": {
                         "download": {
-                            "url": "https://github.com/Soilcoin/go-soil/releases/download/v1.6.1/gsoil-linux-386-1.6.1.tar.gz",
+                            "url": "https://github.com/Soilcoin/go-soil/releases/download/v1.6.4/gsoil-linux-386-1.6.4.tar.gz",
                             "type": "tar",
-                            "md5": "98378b2e2c6b040cc944c8fbc8d32957",
-                            "bin": "gsoil-linux-386-1.6.1/gsoil"
+                            "md5": "4145e3d60f53eec643d49ba77d4dcfcb",
+                            "bin": "gsoil-linux-386-1.6.4/gsoil"
                         },
                         "bin": "gsoil",
                         "commands": {
                             "sanity": {
                                 "args": ["version"],
-                                "output": [ "Gsoil", "1.6.1" ]
+                                "output": [ "Gsoil", "1.6.4" ]
                             }
                         }
                     }
@@ -39,16 +39,16 @@
                 "mac": {
                     "x64": {
                         "download": {
-                            "url": "https://github.com/Soilcoin/go-soil/releases/download/v1.6.1/gsoil-darwin-amd64-1.6.1.tar.gz",
+                            "url": "https://github.com/Soilcoin/go-soil/releases/download/v1.6.4/gsoil-darwin-amd64-1.6.4.tar.gz",
                             "type": "tar",
-                            "md5": "76120c9902d170e463103bd442f3a47f",
-                            "bin": "gsoil-darwin-amd64-1.6.1/gsoil"
+                            "md5": "7c269516a5468bb81a608e76c1f58b1f",
+                            "bin": "gsoil-darwin-amd64-1.6.4/gsoil"
                         },
                         "bin": "gsoil",
                         "commands": {
                             "sanity": {
                                 "args": ["version"],
-                                "output": [ "Gsoil", "1.6.1" ]
+                                "output": [ "Gsoil", "1.6.4" ]
                             }
                         }
                     }
