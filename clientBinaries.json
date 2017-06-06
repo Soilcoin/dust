@@ -2,36 +2,36 @@
 {
     "clients": {
         "Gsoil": {
-            "version": "1.6.1",
+            "version": "1.6.5",
             "platforms": {
                 "linux": {
                     "x64": {
                         "download": {
-                            "url": "https://github.com/Soilcoin/go-soil/releases/download/v1.6.1/gsoil-linux-amd64-1.6.1.tar.gz",
+                            "url": "https://github.com/Soilcoin/go-soil/releases/download/v1.6.5/gsoil-linux-amd64-1.6.5.tar.gz",
                             "type": "tar",
-                            "md5": "699ea3e842a80034468e1920ff7863f0",
-                            "bin": "gsoil-linux-amd64-1.6.1/gsoil"
+                            "md5": "0de1fd5b5e8f366c3c3f80a6b461688e",
+                            "bin": "gsoil-linux-amd64-1.6.5/gsoil"
                         },
                         "bin": "gsoil",
                         "commands": {
                             "sanity": {
                                 "args": ["version"],
-                                "output": [ "Gsoil", "1.6.1" ]
+                                "output": [ "Gsoil", "1.6.5" ]
                             }
                         }
                     },
                     "ia32": {
                         "download": {
-                            "url": "https://github.com/Soilcoin/go-soil/releases/download/v1.6.1/gsoil-linux-386-1.6.1.tar.gz",
+                            "url": "https://github.com/Soilcoin/go-soil/releases/download/v1.6.5/gsoil-linux-386-1.6.5.tar.gz",
                             "type": "tar",
-                            "md5": "98378b2e2c6b040cc944c8fbc8d32957",
-                            "bin": "gsoil-linux-386-1.6.1/gsoil"
+                            "md5": "de2665d559ed4c82a860299630dff489",
+                            "bin": "gsoil-linux-386-1.6.5/gsoil"
                         },
                         "bin": "gsoil",
                         "commands": {
                             "sanity": {
                                 "args": ["version"],
-                                "output": [ "Gsoil", "1.6.1" ]
+                                "output": [ "Gsoil", "1.6.5" ]
                             }
                         }
                     }
@@ -39,16 +39,16 @@
                 "mac": {
                     "x64": {
                         "download": {
-                            "url": "https://github.com/Soilcoin/go-soil/releases/download/v1.6.1/gsoil-darwin-amd64-1.6.1.tar.gz",
+                            "url": "https://github.com/Soilcoin/go-soil/releases/download/v1.6.5/gsoil-darwin-amd64-1.6.5.tar.gz",
                             "type": "tar",
-                            "md5": "76120c9902d170e463103bd442f3a47f",
-                            "bin": "gsoil-darwin-amd64-1.6.1/gsoil"
+                            "md5": "e0235f75710c9d392600efc046aec27c",
+                            "bin": "gsoil-darwin-amd64-1.6.5/gsoil"
                         },
                         "bin": "gsoil",
                         "commands": {
                             "sanity": {
                                 "args": ["version"],
-                                "output": [ "Gsoil", "1.6.1" ]
+                                "output": [ "Gsoil", "1.6.5" ]
                             }
                         }
                     }
@@ -56,31 +56,31 @@
                 "win": {
                     "x64": {
                         "download": {
-                            "url": "https://github.com/Soilcoin/go-soil/releases/download/v1.6.1/gsoil-windows-amd64-1.6.1.zip",
+                            "url": "https://github.com/Soilcoin/go-soil/releases/download/v1.6.5/gsoil-windows-amd64-1.6.5.zip",
                             "type": "zip",
-                            "md5": "325ff2d33e3fc20723843c6c5d52f267",
-                            "bin": "gsoil-windows-amd64-1.6.1\\gsoil.exe"
+                            "md5": "323951e9af103be4f69f8374add6d52c",
+                            "bin": "gsoil-windows-amd64-1.6.5\\gsoil.exe"
                         },
                         "bin": "gsoil.exe",
                         "commands": {
                             "sanity": {
                                 "args": ["version"],
-                                "output": [ "Gsoil", "1.6.1" ]
+                                "output": [ "Gsoil", "1.6.5" ]
                             }
                         }
                     },
                     "ia32": {
                         "download": {
-                            "url": "https://github.com/Soilcoin/go-soil/releases/download/v1.6.1/gsoil-windows-386-1.6.1.zip",
+                            "url": "https://github.com/Soilcoin/go-soil/releases/download/v1.6.5/gsoil-windows-386-1.6.5.zip",
                             "type": "zip",
-                            "md5": "3d587cdbfcda769d3b1ceef76cc4e9d5",
-                            "bin": "gsoil-windows-386-1.6.1\\gsoil.exe"
+                            "md5": "389b84c8ee6fb71c1c8f5776311ece97",
+                            "bin": "gsoil-windows-386-1.6.5\\gsoil.exe"
                         },
                         "bin": "gsoil.exe",
                         "commands": {
                             "sanity": {
                                 "args": ["version"],
-                                "output": [ "Gsoil", "1.6.1" ]
+                                "output": [ "Gsoil", "1.6.5" ]
                             }
                         }
                     }
