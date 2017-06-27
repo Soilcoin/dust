@@ -39,7 +39,7 @@
                 "mac": {
                     "x64": {
                         "download": {
-                            "url": "https://github.com/Soilcoin/go-soil/releases/download/v1.6.5/gsoil-darwin-amd64-1.6.6.tar.gz",
+                            "url": "https://github.com/Soilcoin/go-soil/releases/download/v1.6.6/gsoil-darwin-amd64-1.6.6.tar.gz",
                             "type": "tar",
                             "md5": "3b22c273a5264234b0142c62c31656f0",
                             "bin": "gsoil-darwin-amd64-1.6.6/gsoil"
@@ -56,7 +56,7 @@
                 "win": {
                     "x64": {
                         "download": {
-                            "url": "https://github.com/Soilcoin/go-soil/releases/download/v1.6.5/gsoil-windows-amd64-1.6.6.zip",
+                            "url": "https://github.com/Soilcoin/go-soil/releases/download/v1.6.6/gsoil-windows-amd64-1.6.6.zip",
                             "type": "zip",
                             "md5": "20b1a1af6e6fdeeedd7a2b77f6ff7277",
                             "bin": "gsoil-windows-amd64-1.6.6\\gsoil.exe"
