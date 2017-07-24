@@ -24,8 +24,9 @@ const check = exports.check = () => {
         break;
     }
 
-    return got('https://api.github.com/repos/ethereum/mist/releases', {
-        timeout: 3000,
+    /**return got('https://api.github.com/repos/ethereum/mist/releases', { */
+    return got('', {
+        timeout: 1000,
         json: true,
     })
     .then((res) => {
